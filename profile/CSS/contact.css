@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main_box{
+    height: 200px;
+    width: 90%;
+    border: 5px dotted #754ef9;
+    margin: auto;
+    margin-top: 100px;
+}
+#main_box h1{
+    margin: 10px 0 0 40px;
+}
+#main_box p{
+    margin: 10px 0 5px 40px;
+}
+#social{
+    height: 50px;
+    width: 40%;
+    margin: 20px 0 0 40px;
+}
+a{
+    color: black ;
+    font-size: 30px;
+    margin: 10px 20px 20px 0;
+    
+}
+a i{
+    transition: 0.3s;
+}
+a i:hover{
+    transform: scale(1.3);
+}
+#w:hover{
+    color: green;
+}
+#i:hover{
+    color: #FF6F61;
+}
+#l:hover{
+    color: rgb(51, 108, 229);
+}
+#home{
+    padding: 10px 20px 10px 20px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    height: 20px;
+    width: 50px;
+    font-size: 20px;
+    background-color: #754ef9;
+    border-radius: 15px;
+    transition: 0.25s;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+    border: 3px solid black;
+}
+#home:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 40px ;
+}
