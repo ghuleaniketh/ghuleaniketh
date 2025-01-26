@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    
+}
+.menu h1{
+    margin: 25px;
+    font-size: 40px;
+    color: #754ef9;
+}
+.menu a{
+    padding: 10px 20px 10px 20px;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    height: 20px;
+    width: 50px;
+    font-size: 20px;
+    background-color: #754ef9;
+    border-radius: 15px;
+    transition: 0.25s;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+    border: 3px solid black;
+}
+.menu a:hover{
+    transform: scale(1.1);
+}
+section{
+    height: 400px;
+    width: 230px;
+    display: inline-block;
+    margin: 8%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    animation: apper2 5s linear;
+    animation-timeline: view();
+    animation-range: entry 10%;
+    box-shadow: 0 0 50px skyblue;
+    border: 3px solid #754ef9 ;
+    border-radius: 15px;
+    /* box-shadow: 0 0 30px rgb(228, 228, 228); */
+    transition: 0.3s;
+}
+section:hover{
+    transform: scale(1.09);
+    box-shadow: 0 0 100px white;
+}
+@keyframes apper2{
+    from{opacity: 0;
+    scale: 0.5;
+    transform: translate(-200px);}
+    to{opacity: 1;
+        scale: 1;
+        transform: translate(0px);}
+    }
+
+#a{
+    background-image: url(gallery/1.jpg);
+    background-size: cover;
+}
+#b{
+    background-image: url(gallery/2.jpg);
+    background-size: cover;
+}
+#c{
+    background-image: url(gallery/3.jpg);
+    background-size: cover;
+}
+#d{
+    background-image: url(gallery/4.jpg);
+    background-size: cover;
+}
+#e{
+    background-image: url(gallery/5.jpg);
+    background-size: cover;
+}
+#f{
+    background-image: url(gallery/6.jpg);
+    background-size: cover;
+}
+#g{
+    background-image: url(gallery/7.jpg);
+    background-size: cover;
+}
+#h{
+    background-image: url(gallery/8.jpg);
+    background-size: cover;
+}
+#i{
+    background-image: url(gallery/9.jpg);
+    background-size: cover;
+}
+#j{
+    background-image: url(gallery/10.jpg);
+    background-size: cover;
+}
+#k{
+    background-image: url(gallery/11.jpg);
+    background-size: cover;
+}
+#l{
+    background-image: url(gallery/12.jpg);
+    background-size: cover;
+}
+@media (max-width:431px){
+section{
+    height: 180px;
+    width: 100px;
+    margin: 3%;
+    box-shadow: 0 0 15px skyblue;
+}
+section:hover{
+    transform: none;
+    box-shadow: 0 0 15px skyblue;
+}
+}
